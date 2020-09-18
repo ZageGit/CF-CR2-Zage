@@ -32,7 +32,7 @@ header {
 
 .botrow {
 	display:flex;
-	flex-flow:row wrap;
+	flex-flow: row wrap;
 	text-align: center;
 	justify-content:space-between;
 	align-items:stretch;
@@ -188,7 +188,7 @@ nav {
 
 
 .cflogo {
-	min-height:50em;
+	
 }
 .testing {
 	display:flex;
@@ -286,9 +286,12 @@ nav {
 						}
 
 						.navbarbot {
+							display:flex;
+							flex-flow:row;
 							font-size:0.75em;
 							padding-top:5%;
 							font-weight:500;
+							margin:auto;
 						}
 
 						.newsimage2 {

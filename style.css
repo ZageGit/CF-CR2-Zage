@@ -131,9 +131,6 @@ nav {
 .newstext {
   padding: 0.5em; }
 
-.cflogo {
-  min-height: 50em; }
-
 .testing {
   display: flex;
   justify-content: space-between;
@@ -198,9 +195,12 @@ nav {
     padding: 2em; }
 
   .navbarbot {
+    display: flex;
+    flex-flow: row;
     font-size: 0.75em;
     padding-top: 5%;
-    font-weight: 500; }
+    font-weight: 500;
+    margin: auto; }
 
   .newsimage2 {
     padding-top: 5%;
