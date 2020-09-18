@@ -1,3 +1,33 @@
-p {
-	color:red;
+
+
+/* Header formating*/
+header {
+	background-color: #5B191A;
+}
+
+
+/* Top News Headline */
+.news {
+	background-color: #C4C4C4;
+
+}
+
+.row1 {
+
+	display:flex;
+	flex-direction: row wrap;
+	text-align: center;
+
+}
+
+.botrow {
+	display:flex;
+	flex-direction:row wrap;
+	text-align: center;
+}
+
+footer {
+	display: inline-block;
+	background-color:#0E0D0D;
+	width:100%;
 }
