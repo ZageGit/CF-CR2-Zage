@@ -191,7 +191,8 @@ nav {
 
   .botrow {
     justify-content: space-around;
-    margin-top: 5%; }
+    margin-top: 5%;
+    width: 100%; }
 
   .cardtext {
     font-size: 0.75em; }
@@ -222,7 +223,10 @@ nav {
     width: 60%; }
 
   .newsimage {
-    text-align: center; } }
+    text-align: center; }
+
+  .container3 {
+    width: 100%; } }
 @media screen and (min-width: 481px) {
   .hidden1 {
     display: none; }
