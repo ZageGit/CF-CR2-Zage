@@ -22,16 +22,18 @@ header {
   justify-content: space-between;
   text-align: center; }
 
+.container3 {
+  display: flex; }
+
 .botrow {
   display: flex;
   flex-flow: row wrap;
   text-align: center;
   justify-content: space-between;
-  align-items: stretch; }
+  width: 80%; }
 
 .card1 {
   width: 30%;
-  height: 100%;
   background-color: #0E0D0D;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
@@ -41,10 +43,12 @@ header {
 
 .fswd {
   width: 100%;
+  height: 100%;
   margin-top: 2%; }
 
 .cfwd {
   width: 100%;
+  height: 100%;
   margin-top: 2%; }
 
 .imgrow1 {
@@ -64,11 +68,11 @@ header {
   display: block; }
 
 .card2 {
-  max-height: 25em;
-  width: 40%;
+  width: 45%;
   background-color: #0E0D0D;
   color: white;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  align-self: flex-start; }
 
 footer {
   background-color: black;
@@ -95,6 +99,9 @@ nav {
   font-size: 1.5em;
   font-weight: 700;
   margin-right: 2em; }
+
+.container2 {
+  float: right; }
 
 .date {
   text-align: right;
@@ -131,13 +138,21 @@ nav {
 .newstext {
   padding: 0.5em; }
 
+.cflogo {
+  height: 100%;
+  width: 100%; }
+
 .testing {
   display: flex;
   justify-content: space-between;
   flex-direction: flex-start; }
 
+.container3 {
+  display: flex;
+  justify-content: space-between; }
+
 /*Media Querys*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 480px) {
   .headerbanner {
     display: none; }
 
@@ -208,7 +223,7 @@ nav {
 
   .newsimage {
     text-align: center; } }
-@media screen and (min-width: 1001px) {
+@media screen and (min-width: 481px) {
   .hidden1 {
     display: none; }
 
