@@ -15,11 +15,18 @@ header {
   width: 90%;
   margin: auto; }
 
+.artcontent {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  justify-conten: space-between;
+  flex-flow: row wrap; }
+
 .row1 {
   height: 10%;
   display: flex;
   flex-direction: row wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   text-align: center; }
 
 .container3 {
@@ -39,7 +46,7 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
 
 .cardtext {
-  padding: 3%; }
+  padding: 2%; }
 
 .fswd {
   width: 100%;
@@ -139,8 +146,7 @@ nav {
   padding: 0.5em; }
 
 .cflogo {
-  height: 100%;
-  width: 100%; }
+  height: 100%; }
 
 .testing {
   display: flex;
@@ -157,15 +163,13 @@ nav {
     display: none; }
 
   .headerlogo {
+    width: 60%;
     padding: 10% 20% 10% 0%;
     text-align: left; }
 
-  nav {
-    padding: 2% 10% 2% 10%; }
-
   .navbartop {
     margin: auto;
-    font-size: 1em;
+    font-size: 0.75em;
     font-weight: 500; }
 
   .date {
@@ -195,7 +199,7 @@ nav {
     width: 100%; }
 
   .cardtext {
-    font-size: 0.75em; }
+    font-size: 0.6em; }
 
   .developer {
     display: none; }
@@ -204,7 +208,7 @@ nav {
     display: none; }
 
   .newstext {
-    font-size: 0.75em; }
+    font-size: 0.6em; }
 
   .footertext {
     font-size: 0.75em;
