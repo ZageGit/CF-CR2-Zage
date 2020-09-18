@@ -48,6 +48,9 @@ header {
   margin-right: auto;
   display: block; }
 
+.cf {
+  float: right; }
+
 .card2 {
   width: 40%;
   background-color: #0E0D0D;
@@ -55,8 +58,10 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
 
 footer {
-  background-color: #0E0D0D;
-  width: 100%; }
+  background-color: black;
+  width: 100%;
+  margin-top: 5%;
+  padding: 1%; }
 
 nav {
   padding: 1em;
@@ -82,5 +87,14 @@ nav {
   justify-content: space-around;
   padding-top: 1%;
   padding-bottom: 1%; }
+
+.newsimage {
+  text-align: right;
+  margin-right: 2%; }
+
+.footertext {
+  color: white;
+  text-align: center;
+  font-size: 1.5em; }
 
 /*# sourceMappingURL=style.css.map */
