@@ -61,7 +61,8 @@ footer {
   background-color: black;
   width: 100%;
   margin-top: 5%;
-  padding: 1%; }
+  padding: 1%;
+  margin-bottom: 5%; }
 
 nav {
   padding: 1em;
@@ -88,7 +89,7 @@ nav {
   padding-top: 1%;
   padding-bottom: 1%; }
 
-.newsimage {
+.newsimage2 {
   text-align: right;
   margin-right: 2%; }
 
@@ -96,5 +97,11 @@ nav {
   color: white;
   text-align: center;
   font-size: 1.5em; }
+
+.newsimage {
+  text-align: right; }
+
+.newsimage2 {
+  width: 25%; }
 
 /*# sourceMappingURL=style.css.map */
