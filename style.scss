@@ -35,16 +35,33 @@ header {
 	flex-flow:row wrap;
 	text-align: center;
 	justify-content:space-between;
+	align-items:stretch;
 }
 
 .card1 {
 	width:30%;
 	height:100%;
-	min-height: 18em;
 	background-color:#0E0D0D;
 	color:white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 }
+
+
+.cardtext {
+	padding:3%;
+}
+
+.fswd {
+	width:100%;
+	margin-top:2%;
+}
+
+.cfwd {
+	width:100%;
+	margin-top:2%;
+
+}
+
 
 .imgrow1 {
 	width:100%;
@@ -92,7 +109,7 @@ footer {
 }
 
 nav {
-	padding:1em;
+	padding:1%;
 	display:flex;
 	background-color:black;
 }
@@ -105,14 +122,32 @@ nav {
 	margin-right: 2em;
 }
 
+.navbarbot {
+	color:white;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-right: 2em;
+}
+
+
+
+
+
+
+
 .date {
 	text-align: right;
-	padding-right: 3em;
+	padding-right: 4%;
 }
 
 .developer {
 	text-align: center;
 	margin:2%;
+}
+
+.devimg {
+	width:80%;
 }
 
 .headerimages {
@@ -160,4 +195,123 @@ nav {
 	justify-content:space-between;
 	flex-direction:flex-start;
 
+}
+
+
+
+
+/*Media Querys*/
+
+
+@media screen and (max-width:1000px) {
+
+					
+
+
+						.headerbanner {
+							display:none;
+						}
+						.headerlogo {
+							padding: 10% 20% 10% 0%;
+							text-align: left;
+
+						}
+
+						nav {
+							padding:2% 10% 2% 10%;
+						}
+
+
+						.navbartop {
+							margin:auto;
+							font-size:1em;
+							font-weight:500;
+
+						}
+
+						.date {
+
+							display:none;
+						}
+
+						.card1 {
+							width:45%;
+							padding:2 2 1 2;
+							margin-top:5%;
+						}
+
+						.card2 {
+							width:45%;
+							margin:2%;
+							margin-top:5%;
+
+						}
+
+
+
+						.hidden1 {
+							width:45%;
+							margin-top:4%;
+						}
+
+						.row1 {
+							justify-content:space-around;
+							flex-flow:row wrap;
+						}
+
+						.botrow {
+							justify-content:space-around;
+							margin-top:5%;
+						}
+						.cardtext {
+							font-size:0.75em;
+
+						}
+
+						.developer {
+							display:none;
+						}
+
+						.cf {
+							display:none;
+
+						}
+						.newstext {
+							font-size:0.75em;
+						}
+
+						.footertext {
+							font-size:0.75em;
+							padding: 2em;
+						}
+
+						.navbarbot {
+							font-size:0.75em;
+							padding-top:5%;
+							font-weight:500;
+						}
+
+						.newsimage2 {
+							padding-top: 5%;
+							width:60%;
+						}
+
+						.newsimage{
+							text-align: center;
+						}
+
+
+
+}
+
+@media screen and (min-width:1001px) {
+
+
+	.hidden1 {
+		display: none;
+	}
+
+	.hidden2 {
+		display:none;
+	}
 }
