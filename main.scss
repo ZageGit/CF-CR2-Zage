@@ -145,7 +145,7 @@ h4	{
 }
 
   /* Little settings to change background and text color at scaling */
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 480px) {
    body {
        background-image:url("https://i.pinimg.com/originals/c3/00/7d/c3007d986468146efd43003a76b2761d.jpg");                   
    }
@@ -159,7 +159,7 @@ h4	{
     	display:visible;
     }
 }
-@media screen and (min-width: 1001px) and (max-width: 1500px) {
+@media screen and (min-width: 481px) and (max-width: 1500px) {
    body {
        background-image:url("https://i.ytimg.com/vi/dUgJyqGexs0/maxresdefault.jpg");
    }
