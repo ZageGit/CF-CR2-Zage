@@ -45,10 +45,17 @@ header {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
 
 .artcard1 {
-  width: 20%;
+  width: 30%;
   background-color: #0E0D0D;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+
+.artcard2 {
+  width: 30%;
+  background-color: #0E0D0D;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  margin-top: 2%; }
 
 .cardtext {
   padding: 2%;
