@@ -271,6 +271,7 @@ footer {
 							width:60%;
 							padding: 10% 20% 10% 0%;
 							text-align: left;
+							margin-left:5%;
 
 						}
 
@@ -375,7 +376,7 @@ footer {
 		display:none;
 	}
 
-.headerlogo {
+.headerbanner {
 		display:none;
 	}
 
@@ -383,13 +384,53 @@ footer {
 		width:100%;
 	}
 
+	.headerlogo {
+							width:60%;
+							
+							text-align: left;
 
+						}
+
+					
+						.navbartop {
+							margin:auto;
+							font-size:1em;
+							font-weight:500;
+
+						}
+						.footertext {
+							font-size:1em;
+						}
+
+						.navbarbot {
+							display:flex;
+							flex-flow:row;
+							font-size:1em;
+							padding-top:5%;
+							font-weight:500;
+							margin:auto;
+						}
+
+						.newsimage2 {
+							padding-top: 5%;
+							width:60%;
+						}
+
+						.newsimage{
+							text-align: center;
+						}
+
+.cardtext {
+	font-size:1em;
+
+
+						}
 
 
 }
 
 
-@media screen and (min-width:769px) {
+@media screen and (min-width:769px) and (max-width:1200px) {
 
 	.fswd {
 		display:none;
@@ -400,7 +441,24 @@ footer {
 		display:none;
 	}
 
+	.headerbanner {
+		display:none;
+	}
+
 	
 
+
+}
+
+@media screen and (min-width:1201px)  {
+
+	.fswd {
+		display:none;
+
+	}
+
+	.cfwd {
+		display:none;
+	}
 
 }
