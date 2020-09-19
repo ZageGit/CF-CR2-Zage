@@ -1,3 +1,6 @@
+
+
+/*Setting Body Max width    */
 body{
 	width:60%;
 	margin:auto;
@@ -5,33 +8,57 @@ body{
 }
 
 /* Header formating*/
+
+
 header {
 	background-color: #5B191A;
 	margin-top:5%;
 }
 
+.headerimages {
+	display:flex;
+	justify-content:space-around;
+	padding-top:1%;
+	padding-bottom:1%;
+	align-items:center;
+}
 
-/* Top News Headline */
-.news {
-	background-color: #C4C4C4;
-	font-size:1.5em;
+.headerlogo {
+	margin: 0 auto;
+	margin-bottom: 1%;
 
 }
+
+.headerbanner {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+nav {
+	padding:1%;
+	display:flex;
+	background-color:black;
+}
+
+.navbartop {
+	color:white;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-right: 2em;
+}
+
+
+
+
+/* Start Main content */
 
 .content {
 	width:90%;
 	margin:auto;
 }
 
-.artcontent {
-	
-	display:flex;
-	justify-content:space-around;
-	flex-flow: row wrap;
-
-}
-
-
+/* First row properties */
 .row1 {
 	width:103.4%;
 	display:flex;
@@ -39,15 +66,38 @@ header {
 	
 }
 
+
+/* Article card properties row1*/
+.card1 {
+	width:30%;
+	background-color:#0E0D0D;
+	color:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.cardtext {
+	padding:2%;
+	text-align: center;
+	text-decoration: none;
+}
+
+.imgrow1 {
+	width:100%;
+}
+
+
+/* margin of bottom cards*/
 #special {
 	margin-top:2%;
 }
 
+
+
+
+/* Bottom row properties*/
 .container3 {
 	display:flex;
 }
-
-
 
 .botrow {
 	display:flex;
@@ -56,13 +106,120 @@ header {
 	width:80%;
 }
 
-.card1 {
-	width:30%;
+/* Bottom row article properties*/
+
+.container3 {
+			display:flex;
+			justify-content:space-between;
+			}
+
+.card2 {
+	width:45%;
+	height:50%;
 	background-color:#0E0D0D;
 	color:white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	align-self: flex-start;
+
 }
 
+.imgbotrow {
+	width: 100%;
+}
+
+.cflogo {
+	height:102%;
+	width:100%;
+	
+}
+
+
+/* Pictures only shown in max width 480p*/
+.fswd {
+	width:100%;
+	height:100%;
+	margin-top:2%;
+}
+
+.cfwd {
+	width:100%;
+	height:100%;
+	margin-top:2%;
+
+}
+
+
+/* Footer properties*/
+
+footer {
+	background-color:black;
+	width:100%;
+	margin-top: 5%;
+	padding:1%;
+	margin-bottom:5%;
+}
+
+.navbarbot {
+	color:white;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: 700;
+	margin-right: 2em;
+}
+
+.footertext {
+	color:white;
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.newsimage {
+	text-align: right;
+}
+
+.newsimage2 {
+
+	text-align: right;
+	margin-right:2%;
+	width:25%;
+}
+
+/* Date/Headline/Devimg properties*/
+
+
+.date {
+	text-align: right;
+	padding-right: 4%;
+}
+
+.developer {
+	text-align: center;
+	margin:2%;
+}
+
+.devimg {
+	width:80%;
+}
+
+.news {
+	background-color: #C4C4C4;
+	font-size:1.5em;
+
+}
+
+.newstext{
+	padding:0.5em;
+}
+
+/* Article.html properties */
+
+.artcontent {
+	
+	display:flex;
+	justify-content:space-around;
+	flex-flow: row wrap;
+
+}
 
 .artcard1 {
 
@@ -83,181 +240,33 @@ header {
 
 }
 
-.cardtext {
-	padding:2%;
-	text-align: center;
-	text-decoration: none;
-}
 
-.fswd {
-	width:100%;
-	height:100%;
-	margin-top:2%;
-}
-
-.cfwd {
-	width:100%;
-	height:100%;
-	margin-top:2%;
-
-}
-
-
-.imgrow1 {
-	width:100%;
-}
-
-.imgbotrow {
-	width: 100%;
-}
-
-.headerlogo {
-	margin: 0 auto;
-	margin-bottom: 1%;
-
-}
-
-.headerbanner {
-  margin-left: auto;
-  margin-right: auto;
-  display: block;
-}
-
-.cf {
-	
-
-}
-
-.card2 {
-	width:45%;
-	height:50%;
-	background-color:#0E0D0D;
-	color:white;
-	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-	align-self: flex-start;
-
-}
-
-
-
-footer {
-	background-color:black;
-	width:100%;
-	margin-top: 5%;
-	padding:1%;
-	margin-bottom:5%;
-}
-
-nav {
-	padding:1%;
-	display:flex;
-	background-color:black;
-}
-
-.navbartop {
-	color:white;
-	text-decoration: none;
-	font-size: 1.5em;
-	font-weight: 700;
-	margin-right: 2em;
-}
-
-.navbarbot {
-	color:white;
-	text-decoration: none;
-	font-size: 1.5em;
-	font-weight: 700;
-	margin-right: 2em;
-}
-
-
-
-.container2 {
-	float:right;
-}
-
-
-
-.date {
-	text-align: right;
-	padding-right: 4%;
-}
-
-.developer {
-	text-align: center;
-	margin:2%;
-}
-
-.devimg {
-	width:80%;
-}
-
-.headerimages {
-	display:flex;
-	justify-content:space-around;
-	padding-top:1%;
-	padding-bottom:1%;
-	align-items:center;
-}
-
-
-.newsimage2 {
-
-	text-align: right;
-	margin-right:2%;
-}
-
-.footertext {
-	color:white;
-	text-align: center;
-	font-size: 1.5em;
-}
-
-.newsimage {
-	text-align: right;
-}
-
-.newsimage2 {
-	width:25%;
-}
-
-.newstext{
-	padding:0.5em;
-}
-
-
-.cflogo {
-	height:102%;
-	width:100%;
-	
-}
-.testing {
-	display:flex;
-	justify-content:space-between;
-	flex-direction:flex-start;
-
-}
-
-.container3 {
-			display:flex;
-			justify-content:space-between;
-
-
-			}
-
-
-
-/*Media Querys*/
+/*Media Querys (sorry for indentation)*/
 
 
 @media screen and (max-width:480px) {
 
 					
-
+						/*non display*/
 
 						.headerbanner {
 							display:none;
 						}
+
+						.date {
+
+							display:none;
+						}
+						.developer {
+							display:none;
+						}
+
+						.cf {
+							display:none;
+
+						}
+
+						/*adjusting header*/
 						.headerlogo {
 							width:60%;
 							padding: 10% 20% 10% 0%;
@@ -265,11 +274,7 @@ nav {
 
 						}
 
-						nav {
-							
-						}
-
-
+					
 						.navbartop {
 							margin:auto;
 							font-size:0.75em;
@@ -277,11 +282,7 @@ nav {
 
 						}
 
-						.date {
-
-							display:none;
-						}
-
+						/*resizing and ordering articles*/
 						.card1 {
 							width:45%;
 							margin-top:5%;
@@ -291,12 +292,6 @@ nav {
 							width:45%;
 							height:120px;
 
-						}
-
-						
-						.hidden1 {
-							width:45%;
-							margin-top:4%;
 						}
 
 						.row1 {
@@ -309,23 +304,26 @@ nav {
 							margin-top:5%;
 							width:100%;
 						}
+
+						/*display*/
+						
+						.hidden1 {
+							width:45%;
+							margin-top:4%;
+						}
+												
 						.cardtext {
 							font-size:0.6em;
 
 
 						}
 
-						.developer {
-							display:none;
-						}
-
-						.cf {
-							display:none;
-
-						}
+						
 						.newstext {
 							font-size:0.6em;
 						}
+
+						/*adjusting footer*/
 
 						.footertext {
 							font-size:0.75em;
@@ -348,10 +346,7 @@ nav {
 						.newsimage{
 							text-align: center;
 						}
-						.container3 {
-							width:100%;
-						}
-
+						
 
 
 }
