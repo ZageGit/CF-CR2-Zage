@@ -245,7 +245,14 @@ footer {
     width: 60%; }
 
   .newsimage {
-    text-align: center; } }
+    text-align: center; }
+
+  .artcard1 {
+    width: 60%;
+    margin-top: 2%; }
+
+  .artcard2 {
+    width: 60%; } }
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .cf {
     display: none; }
