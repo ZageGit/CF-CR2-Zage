@@ -4,7 +4,8 @@ body {
 
 /* Header formating*/
 header {
-  background-color: #5B191A; }
+  background-color: #5B191A;
+  margin-top: 5%; }
 
 /* Top News Headline */
 .news {
@@ -16,18 +17,17 @@ header {
   margin: auto; }
 
 .artcontent {
-  width: 90%;
-  margin: auto;
   display: flex;
-  justify-conten: space-between;
+  justify-content: space-around;
   flex-flow: row wrap; }
 
 .row1 {
-  height: 10%;
+  width: 103.4%;
   display: flex;
-  flex-direction: row wrap;
-  justify-content: space-around;
-  text-align: center; }
+  justify-content: space-between; }
+
+#special {
+  margin-top: 2%; }
 
 .container3 {
   display: flex; }
@@ -35,7 +35,6 @@ header {
 .botrow {
   display: flex;
   flex-flow: row wrap;
-  text-align: center;
   justify-content: space-between;
   width: 80%; }
 
@@ -45,8 +44,16 @@ header {
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
 
+.artcard1 {
+  width: 20%;
+  background-color: #0E0D0D;
+  color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+
 .cardtext {
-  padding: 2%; }
+  padding: 2%;
+  text-align: center;
+  text-decoration: none; }
 
 .fswd {
   width: 100%;
@@ -66,7 +73,6 @@ header {
 
 .headerlogo {
   margin: 0 auto;
-  margin-top: 1%;
   margin-bottom: 1%; }
 
 .headerbanner {
@@ -76,6 +82,7 @@ header {
 
 .card2 {
   width: 45%;
+  height: 50%;
   background-color: #0E0D0D;
   color: white;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -125,7 +132,8 @@ nav {
   display: flex;
   justify-content: space-around;
   padding-top: 1%;
-  padding-bottom: 1%; }
+  padding-bottom: 1%;
+  align-items: center; }
 
 .newsimage2 {
   text-align: right;
@@ -146,7 +154,8 @@ nav {
   padding: 0.5em; }
 
 .cflogo {
-  height: 100%; }
+  height: 102%;
+  width: 100%; }
 
 .testing {
   display: flex;
@@ -177,13 +186,11 @@ nav {
 
   .card1 {
     width: 45%;
-    padding: 2 2 1 2;
     margin-top: 5%; }
 
   .card2 {
     width: 45%;
-    margin: 2%;
-    margin-top: 5%; }
+    height: 120px; }
 
   .hidden1 {
     width: 45%;
@@ -211,8 +218,7 @@ nav {
     font-size: 0.6em; }
 
   .footertext {
-    font-size: 0.75em;
-    padding: 2em; }
+    font-size: 0.75em; }
 
   .navbarbot {
     display: flex;
@@ -231,11 +237,32 @@ nav {
 
   .container3 {
     width: 100%; } }
-@media screen and (min-width: 481px) {
-  .hidden1 {
+@media screen and (min-width: 481px) and (max-width: 768px) {
+  .cf {
     display: none; }
 
-  .hidden2 {
+  body {
+    width: 90%; }
+
+  .content {
+    width: 100%; }
+
+  .fswd {
+    display: none; }
+
+  .cfwd {
+    display: none; }
+
+  .headerlogo {
+    display: none; }
+
+  .botrow {
+    width: 100%; } }
+@media screen and (min-width: 769px) {
+  .fswd {
+    display: none; }
+
+  .cfwd {
     display: none; } }
 
 /*# sourceMappingURL=style.css.map */

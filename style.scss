@@ -7,6 +7,7 @@ body{
 /* Header formating*/
 header {
 	background-color: #5B191A;
+	margin-top:5%;
 }
 
 
@@ -23,21 +24,23 @@ header {
 }
 
 .artcontent {
-	width:90%;
-	margin:auto;
+	
 	display:flex;
-	justify-conten:space-between;
+	justify-content:space-around;
 	flex-flow: row wrap;
 
 }
 
 
 .row1 {
-	height:10%;
+	width:103.4%;
 	display:flex;
-	flex-direction: row wrap;
-	justify-content: space-around;
-	text-align: center;
+	justify-content: space-between;
+	
+}
+
+#special {
+	margin-top:2%;
 }
 
 .container3 {
@@ -49,7 +52,6 @@ header {
 .botrow {
 	display:flex;
 	flex-flow: row wrap;
-	text-align: center;
 	justify-content:space-between;
 	width:80%;
 }
@@ -62,8 +64,19 @@ header {
 }
 
 
+.artcard1 {
+
+	width:20%;
+	background-color:#0E0D0D;
+	color:white;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+
+}
+
 .cardtext {
 	padding:2%;
+	text-align: center;
+	text-decoration: none;
 }
 
 .fswd {
@@ -90,7 +103,6 @@ header {
 
 .headerlogo {
 	margin: 0 auto;
-	margin-top: 1%;
 	margin-bottom: 1%;
 
 }
@@ -108,6 +120,7 @@ header {
 
 .card2 {
 	width:45%;
+	height:50%;
 	background-color:#0E0D0D;
 	color:white;
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -174,12 +187,9 @@ nav {
 	justify-content:space-around;
 	padding-top:1%;
 	padding-bottom:1%;
+	align-items:center;
 }
 
-.headercont1 {
-
-
-}
 
 .newsimage2 {
 
@@ -207,7 +217,8 @@ nav {
 
 
 .cflogo {
-	height:100%;
+	height:102%;
+	width:100%;
 	
 }
 .testing {
@@ -263,14 +274,12 @@ nav {
 
 						.card1 {
 							width:45%;
-							padding:2 2 1 2;
 							margin-top:5%;
 						}
 
 						.card2 {
 							width:45%;
-							margin:2%;
-							margin-top:5%;
+							height:120px;
 
 						}
 
@@ -293,6 +302,7 @@ nav {
 						.cardtext {
 							font-size:0.6em;
 
+
 						}
 
 						.developer {
@@ -309,7 +319,6 @@ nav {
 
 						.footertext {
 							font-size:0.75em;
-							padding: 2em;
 						}
 
 						.navbarbot {
@@ -337,15 +346,54 @@ nav {
 
 }
 
-@media screen and (min-width:481px) {
+@media screen and (min-width:481px) and (max-width: 768px){
+
+	.cf {
+		display:none;
 
 
-	.hidden1 {
-		display: none;
+	}
+	body {
+		width:90%;
 	}
 
-	.hidden2 {
+	.content {
+		width:100%;
+	}
+	
+	.fswd {
+		display:none;
+
+	}
+
+	.cfwd {
 		display:none;
 	}
+
+.headerlogo {
+		display:none;
+	}
+
+	.botrow {
+		width:100%;
+	}
+
+
 }
 
+
+@media screen and (min-width:769px) {
+
+	.fswd {
+		display:none;
+
+	}
+
+	.cfwd {
+		display:none;
+	}
+
+	
+
+
+}
