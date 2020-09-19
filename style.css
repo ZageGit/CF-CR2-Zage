@@ -172,7 +172,8 @@ footer {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   margin-top: 2%; }
 
-/*Media Querys (sorry for indentation)*/
+/*Media Querys */
+/* Media Query for Iphone */
 @media screen and (max-width: 480px) {
   /*non display*/
   .headerbanner {
@@ -247,12 +248,14 @@ footer {
   .newsimage {
     text-align: center; }
 
+  /*adjusting article cards in article.html*/
   .artcard1 {
     width: 60%;
     margin-top: 2%; }
 
   .artcard2 {
     width: 60%; } }
+/* Media Query for Ipad */
 @media screen and (min-width: 481px) and (max-width: 768px) {
   .cf {
     display: none; }
@@ -276,7 +279,7 @@ footer {
     width: 100%; }
 
   .headerlogo {
-    width: 60%;
+    width: 85%;
     text-align: left; }
 
   .navbartop {
@@ -304,6 +307,7 @@ footer {
 
   .cardtext {
     font-size: 1em; } }
+/* Media Query for up to 1200px because image of disturbing image */
 @media screen and (min-width: 769px) and (max-width: 1200px) {
   .fswd {
     display: none; }
@@ -313,6 +317,7 @@ footer {
 
   .headerbanner {
     display: none; } }
+/* Media Query for up to min width:1200px  */
 @media screen and (min-width: 1201px) {
   .fswd {
     display: none; }

@@ -241,124 +241,114 @@ footer {
 }
 
 
-/*Media Querys (sorry for indentation)*/
+/*Media Querys */
 
-
+/* Media Query for Iphone */
 @media screen and (max-width:480px) {
 
 					
-						/*non display*/
+	/*non display*/
+	.headerbanner {
+		display:none;
+	}
 
-						.headerbanner {
-							display:none;
-						}
+	.date {
+		display:none;
+	}
 
-						.date {
+	.developer {
+		display:none;
+	}
 
-							display:none;
-						}
-						.developer {
-							display:none;
-						}
+	.cf {
+		display:none;
+	}
 
-						.cf {
-							display:none;
+	/*adjusting header*/
+	.headerlogo {
+		width:60%;
+		padding: 10% 20% 10% 0%;
+		text-align: left;
+		margin-left:5%;
+	}
 
-						}
+	.navbartop {
+		margin:auto;
+		font-size:0.75em;
+		font-weight:500;
+	}
 
-						/*adjusting header*/
-						.headerlogo {
-							width:60%;
-							padding: 10% 20% 10% 0%;
-							text-align: left;
-							margin-left:5%;
+/*resizing and ordering articles*/
+	.card1 {
+		width:45%;
+		margin-top:5%;
+	}
 
-						}
+	.card2 {
+		width:45%;
+		height:120px;
+	}
+	.row1 {
+		justify-content:space-around;
+		flex-flow:row wrap;
+	}
+	
+	.botrow {
+		justify-content:space-around;
+		margin-top:5%;
+		width:100%;
+	}
 
-					
-						.navbartop {
-							margin:auto;
-							font-size:0.75em;
-							font-weight:500;
+	/*display*/
+	.hidden1 {
+		width:45%;
+		margin-top:4%;
+	}
+				
+	.cardtext {
+		font-size:0.6em;
+	}
+		
+	.newstext {
+		font-size:0.6em;
+	}
 
-						}
+	/*adjusting footer*/
 
-						/*resizing and ordering articles*/
-						.card1 {
-							width:45%;
-							margin-top:5%;
-						}
+	.footertext {
+		font-size:0.75em;
+	}
 
-						.card2 {
-							width:45%;
-							height:120px;
+	.navbarbot {
+		display:flex;
+		flex-flow:row;
+		font-size:0.75em;
+		padding-top:5%;
+		font-weight:500;
+		margin:auto;
+	}
+	.newsimage2 {
+		padding-top: 5%;
+		width:60%;
+	}
 
-						}
+	.newsimage{
+		text-align: center;
+	}
 
-						.row1 {
-							justify-content:space-around;
-							flex-flow:row wrap;
-						}
+	/*adjusting article cards in article.html*/
+	.artcard1 {
+		width:60%;
+		margin-top:2%;
+	}
 
-						.botrow {
-							justify-content:space-around;
-							margin-top:5%;
-							width:100%;
-						}
-
-						/*display*/
-						
-						.hidden1 {
-							width:45%;
-							margin-top:4%;
-						}
-												
-						.cardtext {
-							font-size:0.6em;
-
-
-						}
-
-						
-						.newstext {
-							font-size:0.6em;
-						}
-
-						/*adjusting footer*/
-
-						.footertext {
-							font-size:0.75em;
-						}
-
-						.navbarbot {
-							display:flex;
-							flex-flow:row;
-							font-size:0.75em;
-							padding-top:5%;
-							font-weight:500;
-							margin:auto;
-						}
-
-						.newsimage2 {
-							padding-top: 5%;
-							width:60%;
-						}
-
-						.newsimage{
-							text-align: center;
-						}
-						
-
-						.artcard1 {
-							width:60%;
-							margin-top:2%;
-						}
-
-						.artcard2 {
-							width:60%;
-						}
+	.artcard2 {
+		width:60%;
+	}
 
 }
+
+/* Media Query for Ipad */
 
 @media screen and (min-width:481px) and (max-width: 768px){
 
@@ -384,7 +374,7 @@ footer {
 		display:none;
 	}
 
-.headerbanner {
+	.headerbanner {
 		display:none;
 	}
 
@@ -393,50 +383,44 @@ footer {
 	}
 
 	.headerlogo {
-							width:60%;
-							
-							text-align: left;
-
-						}
+		width:85%;
+		text-align: left;
+	}
 
 					
-						.navbartop {
-							margin:auto;
-							font-size:1em;
-							font-weight:500;
+	.navbartop {
+		margin:auto;
+		font-size:1em;
+		font-weight:500;
+	}
 
-						}
-						.footertext {
-							font-size:1em;
-						}
+	.footertext {
+		font-size:1em;
+	}
 
-						.navbarbot {
-							display:flex;
-							flex-flow:row;
-							font-size:1em;
-							padding-top:5%;
-							font-weight:500;
-							margin:auto;
-						}
+	.navbarbot {
+		display:flex;
+		flex-flow:row;
+		font-size:1em;
+		padding-top:5%;
+		font-weight:500;
+		margin:auto;
+	}
 
-						.newsimage2 {
-							padding-top: 5%;
-							width:60%;
-						}
+	.newsimage2 {
+		padding-top: 5%;
+		width:60%;
+	}
+	.newsimage{
+		text-align: center;
+	}
 
-						.newsimage{
-							text-align: center;
-						}
-
-.cardtext {
+	.cardtext {
 	font-size:1em;
-
-
-						}
-
-
+	}
 }
 
+/* Media Query for up to 1200px because image of disturbing image */
 
 @media screen and (min-width:769px) and (max-width:1200px) {
 
@@ -452,11 +436,10 @@ footer {
 	.headerbanner {
 		display:none;
 	}
-
-	
-
-
 }
+
+
+/* Media Query for up to min width:1200px  */
 
 @media screen and (min-width:1201px)  {
 
@@ -468,5 +451,4 @@ footer {
 	.cfwd {
 		display:none;
 	}
-
 }
